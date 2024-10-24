@@ -1,0 +1,53 @@
+.profile-card {
+    background-color: #f9f9f9; /* สีพื้นหลัง */
+    border-radius: 10px; /* มุมโค้ง */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* เงา */
+    padding: 20px; /* ระยะห่างภายใน */
+     /* ความกว้างสูงสุด */
+    margin: 20px auto; /* ตรงกลาง */
+    text-align: center; /* จัดกลางข้อความ */
+    border: gray solid 2px;
+    
+  }
+
+  .skill-card {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 20px;
+  }
+  
+  .skill-card img {
+    width: 100px;
+    height: 100px;
+    box-shadow: gray 2px 2px;
+  }
+  
+  .profile-card h1 {
+    color: #333; /* สีของหัวข้อ */
+    margin-bottom: 10px; /* ระยะห่างด้านล่าง */
+  }
+
+  .profile-card h2 {
+    color: #333; /* สีของหัวข้อ */
+    margin-bottom: 10px; /* ระยะห่างด้านล่าง */
+  }
+  
+  .profile-card p {
+    color: #666; /* สีของเนื้อความ */
+    line-height: 1.5; /* ระยะห่างบรรทัด */
+  }
+  img{
+    width: 300px;
+    height: 350px;
+    border: #333 solid 2px;
+  }
+  
+  body {
+    background-image: url('https://img.pikbest.com/backgrounds/20191205/cute-dinosaur-unicorn-seamless-pattern-cartoon-drawing-with-pastel-colors-background--v_1608531jpg!bwr800');
+  }
+  
+  .hobby-card {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+  }

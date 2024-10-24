@@ -2,13 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Kanun from '../../kanun1/my-react-app/src/Page/Home.jsx'
+import Kanun from '../../kanun/my-react-app/src/Page/Home.jsx'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Kan from '../../kanyarat/src/App.jsx'
 import Main from '../page/profile.jsx'
-import Home from '../../kanun1/my-react-app/src/Page/Home.jsx';
-import About from '../../kanun1/my-react-app/src/Page/About.jsx';
-import Project from '../../kanun1/my-react-app/src/Page/Project.jsx';
+import Home from '../../kanun/my-react-app/src/Page/Home.jsx';
+import About from '../../kanun/my-react-app/src/Page/About.jsx';
+import Project from '../../kanun/my-react-app/src/Page/Project.jsx';
 
 import Home1 from '../../kanyarat/src/Page/Mainindex.jsx';
 import About1 from '../../kanyarat/src/Page/About.jsx';
