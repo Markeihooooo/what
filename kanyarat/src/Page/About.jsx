@@ -4,16 +4,19 @@ import { useNavigate } from 'react-router-dom';
 const About = () => {
     const navigate = useNavigate();
 
-    const goHome = () => {
+    const gomain = () => {
         navigate('/');
+    }
+    const goHome = () => {
+        navigate('/home1');
     }
 
     const goAbout = () => {
-        navigate('/about');
+        navigate('/about1');
     }
 
     const goPerformance = () => {
-        navigate('/performance');
+        navigate('/performance1');
     }
     return (
         <div>
@@ -35,6 +38,7 @@ const About = () => {
                     allowfullscreen></iframe>
                 <br />
                 <div style={{ display: 'flex', justifyContent: 'center', padding: '-20px' }}>
+                    <button onClick={gomain}>GOMAIN</button>
                     <button onClick={goHome}>home</button>
                     <button onClick={goAbout}>about</button>
                     <button onClick={goPerformance}>performance</button>

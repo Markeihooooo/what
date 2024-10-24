@@ -4,13 +4,15 @@ import { useNavigate } from 'react-router-dom';
 const performance = () => {
 
     const navigate = useNavigate();
-
-    const goHome = () => {
+    const gomain = () => {
         navigate('/');
+    }
+    const goHome = () => {
+        navigate('/home1');
     }
 
     const goAbout = () => {
-        navigate('/about');
+        navigate('/about1');
     }
 
     const goPerformance = () => {
@@ -34,6 +36,7 @@ const performance = () => {
                 <h2>---- microsoft word ----</h2>
                 <img style={{ width: '300px', height: '150px' }}  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoDHyOzUj5fnlIRljfot9ijjPgoYoQ6rSIgA&s" alt="word" />
                 <div style={{ display: 'flex', justifyContent: 'center', padding: '20px' }}>
+                    <button onClick={gomain}>GOMAIN</button>
                     <button onClick={goHome}>home</button>
                     <button onClick={goAbout}>about</button>
                     <button onClick={goPerformance}>performance</button>

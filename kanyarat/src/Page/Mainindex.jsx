@@ -6,16 +6,19 @@ import Img from '../../public/02.jpg'
 const Mainindex = () => {
     const navigate = useNavigate();
 
-    const goHome = () => {
+    const gomain = () => {
         navigate('/');
+    }
+    const goHome = () => {
+        navigate('/home1');
     }
 
     const goAbout = () => {
-        navigate('/about');
+        navigate('/about1');
     }
 
     const goPerformance = () => {
-        navigate('/performance');
+        navigate('/performance1');
     }
 
     return (
@@ -39,6 +42,7 @@ const Mainindex = () => {
             <h2> 66111134 </h2>
             <h3>เบอร์โทร : 0989417762</h3>
             <div style={{ display: 'flex', justifyContent: 'center', padding: '20px' }}>
+                <button onClick={gomain}>GOMAIN</button>
                 <button onClick={goHome}>home</button>
                 <button onClick={goAbout}>about</button>
                 <button onClick={goPerformance}>performance</button>
